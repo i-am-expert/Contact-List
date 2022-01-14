@@ -148,10 +148,10 @@
     universal-analytics "0.4.20"
     uuid "7.0.2"
 
-"@angular/common@~9.1.4":
-  version "9.1.6"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-9.1.6.tgz#6428051e8fb18fddf1f800fc6a5e1d7d8f92067b"
-  integrity sha512-L9vw//wE+8QcSArOA411uJ68znnszCiPrbzSBV0BRZeadc7X68MwANA9qjtiTWZx5Xh9pNfHHwsCUyv2lUeinQ==
+"@angular/common@^9.1.6":
+  version "9.1.13"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-9.1.13.tgz#5201212a6964d0596c89c45806d792bc2a1f4bf3"
+  integrity sha512-QACUhJWlly/nfHUmjopVS1p6ayxxa/NqjyftdCeBJaoyM2YohqWixP/n/keu1K/srJ96aFpUNsZQgmgoRv5SOQ==
 
 "@angular/compiler-cli@~9.1.4":
   version "9.1.6"
@@ -185,6 +185,13 @@
   version "9.1.6"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-9.1.6.tgz#2589b74288318ddebb8c12b0fd45eb48dbd9e665"
   integrity sha512-3KiFjLDipZVgS5rfnZ8EoKlkUokOR8dmuw2xdjKHgzflWFFeuaY9ZtQgjZGw9/jkwWlc9P38BOSEHbK8NakdDw==
+
+"@angular/http@^7.2.16":
+  version "7.2.16"
+  resolved "https://registry.yarnpkg.com/@angular/http/-/http-7.2.16.tgz#f05337dd56faa86ce05b0dc378218a00fb337040"
+  integrity sha512-yvjbNyzFSmmz4UTjCdy5M8mk0cZqf9TvSf8yN5UVIwtw4joyuUdlgJCuin0qSbQOKIf/JjHoofpO2JkPCGSNww==
+  dependencies:
+    tslib "^1.9.0"
 
 "@angular/language-service@~9.1.4":
   version "9.1.6"
@@ -3585,11 +3592,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.11.0.tgz#afa14f08ba12a52963140fe43212658897bc0ecb"
-  integrity sha512-KZm0V+ll8PfBrKwMzdo5D13b1bur9Iq9Zd/RMmAoQQcl2PxxFml8cxXPaaPYVbV0RjNjq1CU7zIzAOqtUPudmA==
-  dependencies:
-    debug "^3.0.0"
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
+  integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
 
 for-in@^1.0.2:
   version "1.0.2"
